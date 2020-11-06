@@ -1,7 +1,7 @@
 const transporter = require('./mailer')
 const crypto = require('crypto')
 const bcrypt = require('bcrypt')
-//
+//new feat
 module.exports = function(app, passport, db) {
 
 	app.get('/api/check', (req, res) => {
